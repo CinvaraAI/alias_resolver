@@ -1,0 +1,16 @@
+paths:
+  aliases:
+    log_writer: src/log_writer.py
+
+imports:
+  write_log: src.log_writer.write_log
+
+modules:
+  logger: src.log_writer
+
+background_tasks:
+  on_startup:
+    non-thread: []
+    threading: []
+
+  on_shutdown: []
