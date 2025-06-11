@@ -18,14 +18,11 @@ A lightweight utility to centralize and dynamically resolve **file paths**, **mo
 
 alias-resolver/
 ├── resolver.py
-├── example/
-│ ├── main.py
-│ ├── src/
-│ │ └── log_writer.py
-│ └── dynamics/
+├── main.py
+├── dynamics/
 │ └── config.yaml
-└── LICENSE
-
+├── src/
+│ └── log_writer.py
 
 ---
 
